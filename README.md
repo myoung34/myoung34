@@ -1,4 +1,4 @@
-# Marcus Young
+### :wave:
 
 Hey! I'm Marc (he/him) - a Senior Cloud Security Engineer at [Zapier](https://zapier.com).
 
