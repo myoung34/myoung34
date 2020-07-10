@@ -16,3 +16,4 @@ I'm based out of Nashville, TN, play hockey, brew beer, pen-test, and make thing
 
  - [Keybase](https://keybase.io/3vilpenguin)
  - [Blog](https://marcyoung.us/)
+ - [LinkedIn](https://www.linkedin.com/in/marcus-young-a6369b2a/)
