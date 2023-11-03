@@ -1,6 +1,6 @@
 ### :wave:
 
-Hey! I'm Marc (he/him) - a Senior Security Engineer at Reddit
+Hey! I'm Marc (he/him) - a Security Engineer at Reddit
 
 I've previously done development in compliance industries (FinTech and Healthcare), then DevOps and tooling/automation, now InfoSec.
 
