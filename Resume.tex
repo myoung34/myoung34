@@ -1,20 +1,25 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage{enumitem}
+\usepackage{tabularx}
 
-\title{Marcus Young - Resume}
-\author{}
-\date{}
+\newcommand{\workentry}[2]{%
+  \noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+  #1 & \textit{#2} \\
+  \end{tabular*}
+}
 
 \begin{document}
-
-\maketitle
+\vspace*{-40pt} % move everything up
+\begin{center}
+      {\LARGE \textbf{Mark Young -- Resume}}\\[6pt]
+\end{center}
 
 % Header
 \begin{center}
     \begin{tabular}{l c r}
         Nashville, TN & & myoung34@my.apsu.edu \\
-        & {https://marcyoung.us} & \\
+        & {https://markyoung.us} & \\
     \end{tabular}
     \hrule height 1pt % Divider line
 \end{center}
@@ -23,64 +28,62 @@
 
 \section*{Work Experience}
 
-\textbf{Reddit, Remote – Senior Security Engineer} \hfill \textit{2/2022 to 7/2024}
+\workentry{\textbf{Fastly, Remote - Senior Security Engineer}}{7/2024 to current}
 \begin{itemize}
-    \item Developed Go client and Terraform provider for alerting platform visibility
-    \item Designed and revamped logging solution to scale sensitive data for SIEM integration
-    \item Overhauled server access story for full automation and real-time access requests
+  \item Led revival and maturation of the Detection Engineering program: documented and initiated Detection-as-Code migration and SOAR implementation and rebuilt key xfn partnerships to align detection with org risk
 \end{itemize}
 
-\textbf{Zapier, Remote – Senior Cloud Security Engineer} \hfill \textit{9/2018 to 1/2022}
+\workentry{\textbf{Reddit, Remote – Senior Security Engineer}}{2/2022 to 7/2024}
 \begin{itemize}
-    \item Implemented cloud account rules engines using Cloud-Custodian for SOC2 Compliance
-    \item Managed Kubernetes cluster rules with Gatekeeper and custom reporting tools
-    \item Orchestrated AWS account migration to AWS Organizations with SSO and automation
-    \item Led planning and execution of a manual legacy VPN to a fully automated SSO solution
+  \item Developed Go client and Terraform provider for alerting platform visibility
+  \item Designed and revamped logging solution to scale sensitive data for SIEM integration
+  \item Overhauled server access story for full automation and real-time access requests
 \end{itemize}
 
-\textbf{Built Technologies, Nashville TN – Senior DevOps Engineer} \hfill \textit{1/2018 to 08/2018}
+\workentry{\textbf{Zapier, Remote – Senior Cloud Security Engineer}}{9/2018 to 1/2022}
 \begin{itemize}
-    \item Automated infrastructure with Ansible and CloudFormation
-    \item Established Build/Deploy/Test pipelines using Git webhooks and CI/CD servers
-    \item Developed security best practices including centralized logging and VPN with MFA
+  \item Implemented cloud account rules engines using Cloud-Custodian for SOC2 Compliance
+  \item Managed Kubernetes cluster rules with Gatekeeper and custom reporting tools
+  \item Orchestrated AWS account migration to AWS Organizations with SSO and automation
+  \item Led planning and execution of a manual legacy VPN to a fully automated SSO solution
 \end{itemize}
 
-\textbf{Lincor, Nashville TN/Cork Ireland – Docker SME} \hfill \textit{10/2017 to 12/2018}
+\workentry{\textbf{Built Technologies, Nashville TN – Senior DevOps Engineer}}{1/2018 to 08/2018}
 \begin{itemize}
-    \item Transitioned legacy systems to containers and enhanced CI/CD practices
-    \item Integrated security scanning into CI/CD pipelines with Jenkins and Clair
+  \item Automated infrastructure with Ansible and CloudFormation
+  \item Established Build/Deploy/Test pipelines using Git webhooks and CI/CD servers
+  \item Developed security best practices including centralized logging and VPN with MFA
 \end{itemize}
 
-\textbf{Stratasan, Nashville – Web Operations Engineer} \hfill \textit{02/2015 to 12/2017}
+\workentry{\textbf{Lincor, Nashville TN / Cork Ireland – Docker SME}}{10/2017 to 12/2018}
 \begin{itemize}
-    \item Optimized AWS infrastructure for high availability, security, and HIPAA compliance
-    \item Standardized CI/CD pipelines using Jenkins and containerized applications
-    \item Implemented automated AMI creation, testing, and log standardization
+  \item Transitioned legacy systems to containers and enhanced CI/CD practices
 \end{itemize}
 
-\textbf{Aloompa, Nashville – Sr. Application Developer} \hfill \textit{05/2014 to 02/2015}
+\workentry{\textbf{Stratasan, Nashville – Web Operations Engineer}}{02/2015 to 12/2017}
 \begin{itemize}
-    \item Built scalable infrastructure on AWS using Terraform and Jenkins
-    \item Improved and designed backend services with caching layers and optimized REST APIs
+  \item Optimized AWS infrastructure for high availability, security, and HIPAA compliance
+  \item Standardized CI/CD pipelines using Jenkins and containerized applications
+  \item Implemented automated AMI creation, testing, and log standardization
 \end{itemize}
 
-\textbf{ICA Informatics, Nashville – Sr. Application Developer} \hfill \textit{03/2011 to 04/2014}
+\newpage
+\workentry{\textbf{Aloompa, Nashville – Sr. Application Developer}}{05/2014 to 02/2015}
 \begin{itemize}
-    \item Developed RESTful endpoints and common libraries for multiple applications
-    \item Implemented continuous deployment systems using Puppet and TeamCity
+  \item Built scalable infrastructure on AWS using Terraform and Jenkins
+  \item Improved and designed backend services with caching layers and optimized REST APIs
 \end{itemize}
 
-\textbf{ICA Informatics, Nashville – Integration Developer} \hfill \textit{01/2010 to 03/2011}
+\workentry{\textbf{ICA Informatics, Nashville – Sr. Application Developer}}{03/2011 to 04/2014}
 \begin{itemize}
-    \item Managed processing databases and developed data processing algorithms
-    \item Developed HL7 message ETL parsers using ORM storage model in an Agile environment
+  \item Developed RESTful endpoints and common libraries for multiple applications
+  \item Implemented continuous deployment systems using Puppet and TeamCity
 \end{itemize}
 
-\textbf{Previous Roles:}
+\workentry{\textbf{ICA Informatics, Nashville – Integration Developer}}{01/2010 to 03/2011}
 \begin{itemize}
-    \item \textbf{Austin Peay State Univ., Clarksville} – Information Technology (06/2009 to 12/2010)
-    \item \textbf{Tennessee Tech University, Cookeville} – Software Engineer (04/2009 to 06/2009)
-    \item \textbf{MacAuthority, Nashville} – Apple Technician (06/2007 to 06/2008)
+  \item Managed processing databases and developed data processing algorithms
+  \item Developed HL7 message ETL parsers using ORM storage model in an Agile environment
 \end{itemize}
 
 \section*{Education}

@@ -1,6 +1,6 @@
 ### :wave:
 
-Hey! I'm Marc (he/him) - a Security Engineer at Fastly. Previously Reddit, Zapier, a few others.
+Hey! I'm Mark (he/him) - a Security Engineer at Fastly. Previously Reddit, Zapier, a few others.
 
 I've previously done development in compliance industries (FinTech and Healthcare), then DevOps and tooling/automation, now InfoSec.
 
@@ -13,7 +13,7 @@ I'm based out of Nashville, TN, play hockey, brew beer, pen-test, and make thing
 
 ## Get in touch
  - [Keybase](https://keybase.io/3vilpenguin)
- - [Blog](https://marcyoung.us/)
+ - [Blog](https://markyoung.us/)
  - [LinkedIn](https://www.linkedin.com/in/marcus-young-a6369b2a/)
 
 ## Resume
